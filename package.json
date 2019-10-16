@@ -1,0 +1,32 @@
+{
+  "name": "ts-metadata-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "demo": "ts-node demo/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olian04/ts-metadata-handler.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "metadata"
+  ],
+  "author": "Olian04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olian04/ts-metadata-handler/issues"
+  },
+  "homepage": "https://github.com/Olian04/ts-metadata-handler#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "ts-node": "^8.4.1"
+  }
+}
