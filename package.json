@@ -1,10 +1,12 @@
 {
   "name": "ts-metadata-handler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "demo": "ts-node demo/index.ts"
+    "demo": "ts-node demo/index.ts",
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
