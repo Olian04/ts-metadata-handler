@@ -53,7 +53,9 @@ class Foo {
 }
 ```
 
-**Install:** `npm i ts-metadata-handler`
+## Install 
+
+**NPM:** [`npm i ts-metadata-handler`](https://www.npmjs.com/package/ts-metadata-handler)
 
 ## Type "Documentation"
 
